@@ -61,7 +61,7 @@
         </plugin>
 
 
-	<plugin>
+	<!-- <plugin>
 		<groupId>org.codehaus.mojo</groupId>
 		<artifactId>exec-maven-plugin</artifactId>
 		<version>1.2.1</version>
@@ -79,7 +79,7 @@
 				<argument>bar</argument>
 			</arguments>
 		</configuration>
-	</plugin>
+	</plugin> -->
         
             <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -92,6 +92,8 @@
 					</archive>
 				</configuration>
 			</plugin> 
+			
+			
         
       </plugins>
     </pluginManagement>
