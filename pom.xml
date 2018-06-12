@@ -87,7 +87,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>org.peopleTech.example.HelloWorld_Example.HelloWorld</mainClass>
+							<mainClass>HelloSuresh</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
