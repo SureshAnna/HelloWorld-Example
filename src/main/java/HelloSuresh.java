@@ -2,6 +2,6 @@
 public class HelloSuresh {
 
 	public static void main(String[] args) {
-		System.out.println("Welcome to automation testing, Mr. Muhammed Younus");
+		System.out.println("Welcome to automation testing, Mr. Suresh Kanaparthi");
 	}
 }
