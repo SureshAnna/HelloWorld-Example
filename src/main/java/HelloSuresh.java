@@ -13,47 +13,10 @@ import org.testng.annotations.Test;
 
 public class HelloSuresh {
 
-/*	public static void main(String[] args)
+	public static void main(String[] args)
 	{
 		System.out.println("Welcome to automation testing, Mr. Rajesh KothaKota......");
-	}*/
-	 WebDriver driver;
-	
-	@BeforeMethod
-	public void LunchBrowser(){
-	
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Suresh\\workSpace4Automation\\BasicPractice\\chromedriver.exe");
-	  driver=new ChromeDriver();
-	 driver.manage().window().maximize();
-	 String URL = "http://www.dhtmlx.com/docs/products/dhtmlxTree/index.shtml";
-
-	 driver.get(URL);
-
+	}
 	 
-	}
-	
-	@Test
-	
-	public void InitBrowser(){
-		
-		WebElement From = driver.findElement(By.xpath(".//*[@id='treebox1']/div/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td[2]/table/tbody/tr[1]/td[4]/span"));
-
-		WebElement To = driver.findElement(By.xpath(".//*[@id='treebox2']/div/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td[2]/table/tbody/tr[1]/td[4]/span"));
-
-		Actions builder = new Actions(driver);
-
-		Action dragAndDrop = builder.clickAndHold(From).moveToElement(To).release(To).build();
-
-		dragAndDrop.perform();
-		System.out.println("performed ");
-		
-		
-		
-	}
-	
-	@AfterMethod
-public void CloseBrowser(){
-		driver.close();
-	}
 	
 }
