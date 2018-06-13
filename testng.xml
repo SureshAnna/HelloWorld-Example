@@ -2,7 +2,7 @@
 <suite name="softwaretestingmaterial">
 	<test name="testngTest">
 		<classes>
-			<class name="org.peopleTech.example.HelloWorld_Example.HelloSuresh" />
+			<class name="org.peopleTech.example.HelloWorld_Example.HelloWorld" />
 		</classes>
 	</test>
 </suite>
